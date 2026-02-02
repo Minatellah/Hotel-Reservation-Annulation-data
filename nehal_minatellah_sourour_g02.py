@@ -71,10 +71,8 @@ for col_name in cols_outliers:
     # Replace outliers with the mean value of the column
     df[col_name] = np.where((df[col_name] > upper_bound) | (df[col_name] < lower_bound), np.mean(df[col_name]), df[col_name])
 
-#using plotly draw count plot for df['is_canceled'] and color each bar with different color
 fig = px.histogram(df, x='is_canceled', color='is_canceled', title='Count Plot for Status of the cancelation')
 
-#update layout to center the title and make it bold
 fig.update_layout(
     title=dict(text='<b>Count Plot for Status of cancelations</b>', x=0.5)
 )
