@@ -1,12 +1,3 @@
-# Prediction of Hotel Reservation Cancellations  
-*A Study on the Impact of Data Preprocessing Strategies*
-
-
-## Abstract
-
-This project focuses on predicting hotel reservation cancellations using the *Hotel Reservation Cancellation* dataset from Kaggle.  
-Beyond predictive performance, the main objective is to analyze how different **data preprocessing techniques** affect model accuracy and generalization. Several preprocessing pipelines were tested, and the final model corresponds to the configuration that achieved the best performance while limiting overfitting.
-
 
 ## Dataset Description
 
