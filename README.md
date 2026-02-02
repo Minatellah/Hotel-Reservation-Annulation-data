@@ -3,7 +3,9 @@
 
 - **Source**: Kaggle – Hotel Reservation Cancellation Dataset  
 - **Task**: Binary classification (Canceled vs. Not Canceled)
-- 
+
+---
+
 ## Data Cleaning and Exploratory Analysis
 
 An initial exploratory analysis revealed several data quality issues that required careful preprocessing.
